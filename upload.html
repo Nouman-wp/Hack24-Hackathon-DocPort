@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Assignment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <section class="flex">
+        <a href="home.html" class="logo">DocPort</a>
+    </section>
+</header>
+
+<main>
+    <section class="upload-section">
+        <h1>Submit Your Assignment</h1>
+        <form action="submit_assignment.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="student_name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="student_email" required>
+            </div>
+            <div class="form-group">
+                <label for="assignment">Upload Assignment:</label>
+                <input type="file" id="assignment" name="assignment_file" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 DocPort. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
