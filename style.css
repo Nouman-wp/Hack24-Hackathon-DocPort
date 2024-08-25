@@ -1374,3 +1374,338 @@ section{
    }
 
 }
+
+
+/* business */
+/* Business section styling */
+.project-category.business {
+   background-color: #f4f4f4; /* Light grey background for contrast */
+   padding: 20px; /* Add padding around the section */
+   border-radius: 8px; /* Rounded corners for a softer look */
+   margin: 20px 0; /* Space above and below the section */
+}
+
+.project-category.business h3 {
+   font-size: 1.8em; /* Larger font size for the section title */
+   color: #333; /* Dark grey color for the title text */
+   margin-bottom: 10px; /* Space below the title */
+}
+
+.project-category.business p {
+   font-size: 1em; /* Standard font size for paragraphs */
+   line-height: 1.6; /* Increased line height for readability */
+   color: #666; /* Medium grey color for paragraph text */
+   margin-bottom: 20px; /* Space below each paragraph */
+}
+
+.project-category.business h4 {
+   font-size: 1.4em; /* Slightly larger font size for subsection titles */
+   color: #444; /* Darker grey color for subsection titles */
+   margin-top: 20px; /* Space above subsection titles */
+   margin-bottom: 10px; /* Space below subsection titles */
+}
+
+.project-category.business ul {
+   list-style-type: none; /* Remove default bullet points */
+   padding: 0; /* Remove default padding */
+}
+
+.project-category.business li {
+   margin-bottom: 20px; /* Space below each list item */
+}
+
+.project-category.business h5 {
+   font-size: 1.2em; /* Font size for list item headings */
+   color: #555; /* Grey color for list item headings */
+   margin-bottom: 5px; /* Space below list item headings */
+}
+
+.project-category.business ul p {
+   margin: 0; /* Remove margin from paragraphs inside list items */
+   font-size: 1em; /* Standard font size for list item paragraphs */
+   color: #777; /* Light grey color for list item paragraphs */
+}
+
+
+/* dev */
+body {
+   font-family: 'Nunito', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #f4f4f4;
+   color: #333;
+   font-size: 18px; /* Adjusted base font size */
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+h2 {
+   font-size: 32px; /* Increased font size */
+   margin-bottom: 20px;
+   color: #8e44ad;
+   text-transform: uppercase;
+   border-bottom: 2px solid #8e44ad;
+   padding-bottom: 10px;
+}
+
+.project-category h3 {
+   font-size: 28px; /* Increased font size */
+   margin-bottom: 15px;
+   color: #333;
+}
+
+.project-category ul {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.project-category ul li {
+   background-color: #fff;
+   padding: 20px; /* Increased padding */
+   margin-bottom: 10px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-category ul li:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-category ul li a {
+   text-decoration: none;
+   color: #8e44ad;
+   font-weight: bold;
+   font-size: 20px; /* Increased link font size */
+   display: block;
+}
+
+.project-category ul li a:hover {
+   color: #5a2c7a;
+}
+
+.project-category ul li p {
+   margin: 10px 0 0;
+   color: #666;
+   font-size: 16px; /* Increased paragraph font size */
+}
+
+
+
+
+/* desighn */
+/* Design section styling */
+.project-category.design {
+   background-color: #e8f0fe; /* Light blue background for a calm effect */
+   padding: 20px; /* Add padding around the section */
+   border-radius: 8px; /* Rounded corners for a softer look */
+   margin: 20px 0; /* Space above and below the section */
+}
+
+.project-category.design h3 {
+   font-size: 1.8em; /* Larger font size for the section title */
+   color: #333; /* Dark grey color for the title text */
+   margin-bottom: 10px; /* Space below the title */
+}
+
+.project-category.design p {
+   font-size: 1em; /* Standard font size for paragraphs */
+   line-height: 1.6; /* Increased line height for readability */
+   color: #666; /* Medium grey color for paragraph text */
+   margin-bottom: 20px; /* Space below each paragraph */
+}
+
+.project-category.design h4 {
+   font-size: 1.4em; /* Slightly larger font size for subsection titles */
+   color: #444; /* Darker grey color for subsection titles */
+   margin-top: 20px; /* Space above subsection titles */
+   margin-bottom: 10px; /* Space below subsection titles */
+}
+
+.project-category.design ul {
+   list-style-type: none; /* Remove default bullet points */
+   padding: 0; /* Remove default padding */
+}
+
+.project-category.design li {
+   margin-bottom: 20px; /* Space below each list item */
+}
+
+.project-category.design h5 {
+   font-size: 1.2em; /* Font size for list item headings */
+   color: #555; /* Grey color for list item headings */
+   margin-bottom: 5px; /* Space below list item headings */
+}
+
+.project-category.design ul p {
+   margin: 0; /* Remove margin from paragraphs inside list items */
+   font-size: 1em; /* Standard font size for list item paragraphs */
+   color: #777; /* Light grey color for list item paragraphs */
+}
+
+
+
+
+/* html */
+/* Basic styling for HTML overview section */
+.html-intro {
+   background-color: #f9f9f9; /* Light grey background for readability */
+   padding: 20px; /* Add padding around the section */
+   border-radius: 8px; /* Rounded corners for a softer look */
+   margin: 20px; /* Margin around the section */
+}
+
+.html-intro h1 {
+   font-size: 2em; /* Larger font size for main title */
+   color: #333; /* Dark grey color for the title text */
+   margin-bottom: 20px; /* Space below the title */
+}
+
+.html-intro h2 {
+   font-size: 1.8em; /* Font size for subsection titles */
+   color: #444; /* Darker grey color for subsection titles */
+   margin-top: 20px; /* Space above subsection titles */
+   margin-bottom: 10px; /* Space below subsection titles */
+}
+
+.html-intro h3 {
+   font-size: 1.4em; /* Font size for sub-subsection titles */
+   color: #555; /* Grey color for sub-subsection titles */
+   margin-top: 15px; /* Space above sub-subsection titles */
+   margin-bottom: 5px; /* Space below sub-subsection titles */
+}
+
+.html-intro p {
+   font-size: 1em; /* Standard font size for paragraphs */
+   line-height: 1.6; /* Increased line height for readability */
+   color: #666; /* Medium grey color for paragraph text */
+   margin-bottom: 15px; /* Space below each paragraph */
+}
+
+.html-intro ul {
+   list-style-type: disc; /* Use bullet points for list items */
+   padding-left: 20px; /* Indent list items */
+}
+
+.html-intro li {
+   margin-bottom: 15px; /* Space below each list item */
+}
+
+.html-intro code {
+   background-color: #f4f4f4; /* Light grey background for code snippets */
+   padding: 2px 4px; /* Padding around the code text */
+   border-radius: 4px; /* Rounded corners for code snippets */
+   font-family: monospace; /* Monospace font for code snippets */
+}
+
+
+
+
+/* css */
+/* CSS section styling */
+.project-category.css {
+   background-color: #e8f4f8; /* Light blue background for contrast */
+   padding: 20px; /* Add padding around the section */
+   border-radius: 8px; /* Rounded corners for a softer look */
+   margin: 20px 0; /* Space above and below the section */
+}
+
+.project-category.css h3 {
+   font-size: 1.8em; /* Larger font size for the section title */
+   color: #2c3e50; /* Dark blue color for the title text */
+   margin-bottom: 10px; /* Space below the title */
+}
+
+.project-category.css p {
+   font-size: 1em; /* Standard font size for paragraphs */
+   line-height: 1.6; /* Increased line height for readability */
+   color: #34495e; /* Darker grey color for paragraph text */
+   margin-bottom: 20px; /* Space below each paragraph */
+}
+
+.project-category.css h4 {
+   font-size: 1.4em; /* Slightly larger font size for subsection titles */
+   color: #2980b9; /* Blue color for subsection titles */
+   margin-top: 20px; /* Space above subsection titles */
+   margin-bottom: 10px; /* Space below subsection titles */
+}
+
+.project-category.css ul {
+   list-style-type: disc; /* Bullet points for list items */
+   padding-left: 20px; /* Indent list items */
+}
+
+.project-category.css li {
+   margin-bottom: 20px; /* Space below each list item */
+}
+
+.project-category.css h5 {
+   font-size: 1.2em; /* Font size for list item headings */
+   color: #3498db; /* Lighter blue color for list item headings */
+   margin-bottom: 5px; /* Space below list item headings */
+}
+
+.project-category.css ul p {
+   margin: 0; /* Remove margin from paragraphs inside list items */
+   font-size: 1em; /* Standard font size for list item paragraphs */
+   color: #7f8c8d; /* Light grey color for list item paragraphs */
+}
+
+
+/* javascript */
+/* JavaScript section styling */
+.project-category.javascript {
+   background-color: #f9f9f9; /* Light grey background for contrast */
+   padding: 20px; /* Add padding around the section */
+   border-radius: 8px; /* Rounded corners for a softer look */
+   margin: 20px 0; /* Space above and below the section */
+}
+
+.project-category.javascript h3 {
+   font-size: 1.8em; /* Larger font size for the section title */
+   color: #2c3e50; /* Dark blue color for the title text */
+   margin-bottom: 10px; /* Space below the title */
+}
+
+.project-category.javascript p {
+   font-size: 1em; /* Standard font size for paragraphs */
+   line-height: 1.6; /* Increased line height for readability */
+   color: #34495e; /* Darker grey color for paragraph text */
+   margin-bottom: 20px; /* Space below each paragraph */
+}
+
+.project-category.javascript h4 {
+   font-size: 1.4em; /* Slightly larger font size for subsection titles */
+   color: #2980b9; /* Blue color for subsection titles */
+   margin-top: 20px; /* Space above subsection titles */
+   margin-bottom: 10px; /* Space below subsection titles */
+}
+
+.project-category.javascript ul {
+   list-style-type: disc; /* Bullet points for list items */
+   padding-left: 20px; /* Indent list items */
+}
+
+.project-category.javascript li {
+   margin-bottom: 20px; /* Space below each list item */
+}
+
+.project-category.javascript h5 {
+   font-size: 1.2em; /* Font size for list item headings */
+   color: #3498db; /* Lighter blue color for list item headings */
+   margin-bottom: 5px; /* Space below list item headings */
+}
+
+.project-category.javascript ul p {
+   margin: 0; /* Remove margin from paragraphs inside list items */
+   font-size: 1em; /* Standard font size for list item paragraphs */
+   color: #7f8c8d; /* Light grey color for list item paragraphs */
+}
+
+
