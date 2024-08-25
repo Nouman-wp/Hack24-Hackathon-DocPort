@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to HTML</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="html-intro">
+        <h1>Introduction to HTML</h1>
+        <p>HTML, or HyperText Markup Language, is the standard language used to create and design web pages. It provides the basic structure for web documents and web applications. HTML defines the elements and layout of a web page, making it possible for browsers to render and display content in a structured and consistent manner.</p>
+
+        <h2>What is HTML?</h2>
+        <p>HTML stands for HyperText Markup Language. It uses a system of tags and attributes to create elements and structure content. These elements can include text, images, links, forms, and other multimedia elements.</p>
+
+        <h2>Basic Components of HTML</h2>
+        <ul>
+            <li>
+                <h3>HTML Tags</h3>
+                <p>Tags are the building blocks of HTML. They are enclosed in angle brackets and usually come in pairs: an opening tag and a closing tag. For example, <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code> defines a paragraph element.</p>
+            </li>
+            <li>
+                <h3>Attributes</h3>
+                <p>Attributes provide additional information about HTML elements. They are included in the opening tag and typically come in name-value pairs. For instance, <code>&lt;a href="https://example.com"&gt;Link&lt;/a&gt;</code> uses the <code>href</code> attribute to specify the URL of the link.</p>
+            </li>
+            <li>
+                <h3>Elements</h3>
+                <p>An HTML element consists of an opening tag, content, and a closing tag. For example, <code>&lt;h1&gt;Main Heading&lt;/h1&gt;</code> is an element that defines a top-level heading.</p>
+            </li>
+            <li>
+                <h3>Document Structure</h3>
+                <p>A basic HTML document structure includes the <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> elements. The <code>&lt;html&gt;</code> tag encloses the entire document, <code>&lt;head&gt;</code> contains meta-information and links to stylesheets, while <code>&lt;body&gt;</code> contains the actual content displayed on the page.</p>
+            </li>
+        </ul>
+
+        <h2>Importance of HTML</h2>
+        <p>HTML is fundamental for web development. It provides the skeleton for web pages, allowing developers to format and structure content effectively. Understanding HTML is essential for anyone looking to create or maintain websites, as it is the foundation upon which all web content is built.</p>
+    </section>
+</body>
+</html>
+
+
+
+
+
+/* html */
+/* Basic styling for HTML overview section */
+.html-intro {
+   background-color: #f9f9f9; /* Light grey background for readability */
+   padding: 20px; /* Add padding around the section */
+   border-radius: 8px; /* Rounded corners for a softer look */
+   margin: 20px; /* Margin around the section */
+}
+
+.html-intro h1 {
+   font-size: 2em; /* Larger font size for main title */
+   color: #333; /* Dark grey color for the title text */
+   margin-bottom: 20px; /* Space below the title */
+}
+
+.html-intro h2 {
+   font-size: 1.8em; /* Font size for subsection titles */
+   color: #444; /* Darker grey color for subsection titles */
+   margin-top: 20px; /* Space above subsection titles */
+   margin-bottom: 10px; /* Space below subsection titles */
+}
+
+.html-intro h3 {
+   font-size: 1.4em; /* Font size for sub-subsection titles */
+   color: #555; /* Grey color for sub-subsection titles */
+   margin-top: 15px; /* Space above sub-subsection titles */
+   margin-bottom: 5px; /* Space below sub-subsection titles */
+}
+
+.html-intro p {
+   font-size: 1em; /* Standard font size for paragraphs */
+   line-height: 1.6; /* Increased line height for readability */
+   color: #666; /* Medium grey color for paragraph text */
+   margin-bottom: 15px; /* Space below each paragraph */
+}
+
+.html-intro ul {
+   list-style-type: disc; /* Use bullet points for list items */
+   padding-left: 20px; /* Indent list items */
+}
+
+.html-intro li {
+   margin-bottom: 15px; /* Space below each list item */
+}
+
+.html-intro code {
+   background-color: #f4f4f4; /* Light grey background for code snippets */
+   padding: 2px 4px; /* Padding around the code text */
+   border-radius: 4px; /* Rounded corners for code snippets */
+   font-family: monospace; /* Monospace font for code snippets */
+}
