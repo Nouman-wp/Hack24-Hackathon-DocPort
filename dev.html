@@ -3,124 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Project Hub - Development</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>About Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/dev.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
+        <h1>Development Overview</h1>
         <nav>
-            <div class="logo">DocPort</div>
             <ul>
-                <li><a href="index.html"></a></li>
-                <li><a href="projects.html"></a></li>
-                <li><a href="about.html"></a></li>
-                <li><a href="contact.html"></a></li>
+                <li><a href="#web">Web Development</a></li>
+                <li><a href="#software">Software Development</a></li>
+                <li><a href="#mobile">Mobile Development</a></li>
+                <li><a href="#game">Game Development</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Welcome to the Development Section</h1>
-        <p>Your go-to place for all things development.</p>
-    </section>
-
-    <!-- About Section -->
     <main>
-        <section class="about-section">
-            <h1>About Development</h1>
-            <h2>Our Mission</h2>
-            <p>At docport Hub, our mission is to empower students with the tools and knowledge they need to succeed in the field of development. Whether you're just starting or looking to refine your skills, we provide the resources and guidance to help you achieve your goals.</p>
+        <section id="web" class="development-category">
+            <h2>Web Development</h2>
+            <p>Web development involves creating and maintaining websites. It encompasses frontend (client-side) and backend (server-side) development, including web design, content management, and web application development.</p>
+        </section>
 
-            <h2>What We Offer</h2>
-            <p>We offer a wide range of development resources, including tutorials, project ideas, and collaboration opportunities. Our platform is designed to foster creativity and innovation, allowing students to bring their ideas to life.</p>
-            <ul>
-                <li><strong>Comprehensive Tutorials:</strong> Step-by-step guides on various development topics.</li>
-                <li><strong>Project Ideas:</strong> Inspiration for your next big project.</li>
-                <li><strong>Collaboration:</strong> Connect with other students and work together on projects.</li>
-            </ul>
+        <section id="software" class="development-category">
+            <h2>Software Development</h2>
+            <p>Software development is the process of designing, coding, testing, and maintaining software applications. It includes various methodologies, tools, and languages to create robust and scalable software solutions.</p>
+        </section>
 
-            <h2>Why Choose Us?</h2>
-            <p>We are committed to providing the best learning experience for our users. Our resources are tailored to meet the needs of both beginners and advanced learners. By joining our community, you'll have access to a wealth of knowledge and support that will help you excel in your development journey.</p>
+        <section id="mobile" class="development-category">
+            <h2>Mobile Development</h2>
+            <p>Mobile development focuses on creating applications for mobile devices, such as smartphones and tablets. It involves building native, hybrid, or web-based apps that run on Android, iOS, and other platforms.</p>
+        </section>
 
-            <p>Ready to start developing? <a href="projects.html">Check out our projects</a> and see what you can create today!</p>
+        <section id="game" class="development-category">
+            <h2>Game Development</h2>
+            <p>Game development is the art of creating video games. It involves designing game mechanics, graphics, audio, and user interactions, often using specialized game engines and development tools.</p>
         </section>
     </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Student Project Hub. All rights reserved.</p>
-    </footer>
 </body>
 </html>
-
-/* dev */
-body {
-   font-family: 'Nunito', sans-serif;
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   background-color: #f4f4f4;
-   color: #333;
-   font-size: 18px; /* Adjusted base font size */
-}
-
-.container {
-   max-width: 1200px;
-   margin: 0 auto;
-   padding: 20px;
-}
-
-h2 {
-   font-size: 32px; /* Increased font size */
-   margin-bottom: 20px;
-   color: #8e44ad;
-   text-transform: uppercase;
-   border-bottom: 2px solid #8e44ad;
-   padding-bottom: 10px;
-}
-
-.project-category h3 {
-   font-size: 28px; /* Increased font size */
-   margin-bottom: 15px;
-   color: #333;
-}
-
-.project-category ul {
-   list-style-type: none;
-   padding-left: 0;
-}
-
-.project-category ul li {
-   background-color: #fff;
-   padding: 20px; /* Increased padding */
-   margin-bottom: 10px;
-   border-radius: 5px;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.project-category ul li:hover {
-   transform: translateY(-5px);
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.project-category ul li a {
-   text-decoration: none;
-   color: #8e44ad;
-   font-weight: bold;
-   font-size: 20px; /* Increased link font size */
-   display: block;
-}
-
-.project-category ul li a:hover {
-   color: #5a2c7a;
-}
-
-.project-category ul li p {
-   margin: 10px 0 0;
-   color: #666;
-   font-size: 16px; /* Increased paragraph font size */
-}
-
