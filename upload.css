@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    padding: 20px;
+}
+
+.upload-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.upload-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-section .form-group {
+    margin-bottom: 15px;
+}
+
+.upload-section .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.upload-section .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8a44ad
+    border-radius: 3px;
+}
+
+.upload-section .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #8a44ad;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.footer {
+    background: #8a44ad;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer span {
+    font-weight: bold;
+}
+/* Increase size and make labels bold */
+.upload-section .form-group label {
+    font-size: 18px; /* Increase the font size as needed */
+    font-weight: bold; /* Make the text bold */
+}
+
+.upload-section h1 {
+    font-size: 32px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Adjust spacing below the heading */
+}
