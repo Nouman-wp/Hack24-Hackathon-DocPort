@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,28 +12,108 @@
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <style>
+      /* Animation for the header */
+      @keyframes slideInDown {
+         0% {
+            transform: translateY(-100%);
+            opacity: 0;
+         }
+
+         100% {
+            transform: translateY(0);
+            opacity: 1;
+         }
+      }
+
+      .header {
+         animation: slideInDown 1s ease-out;
+      }
+
+
+
+      /* Animation for the about section content */
+      @keyframes fadeInUp {
+         0% {
+            transform: translateY(20px);
+            opacity: 0;
+         }
+
+         100% {
+            transform: translateY(0);
+            opacity: 1;
+         }
+      }
+
+      .about .content,
+      .about .box-container .box {
+         animation: fadeInUp 1s ease-out;
+      }
+      
+      /* Animation for the reviews */
+      @keyframes fadeIn {
+         0% {
+            opacity: 0;
+         }
+
+         100% {
+            opacity: 1;
+         }
+      }
+
+      .reviews .box {
+         animation: fadeIn 1.5s ease-out;
+      }
+
+      /* Animation for the footer */
+      .footer {
+         animation: fadeIn 2s ease-out;
+      }
+   </style>
 
 </head>
+
 <body>
 
-<header class="header">
-   
-   <section class="flex">
+   <header class="header">
 
-      <a href="home.html" class="logo">DocPort
-         <i class="fa-solid fa-file"></i>
-      </a>
+      <section class="flex">
 
-      <form action="search.html" method="post" class="search-form">
-         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
-         <button type="submit" class="fas fa-search"></button>
-      </form>
+         <a href="home.html" class="logo">DocPort
+            <i class="fa-solid fa-file"></i>
+         </a>
 
-      <div class="icons">
-         <div id="menu-btn" class="fas fa-bars"></div>
-         <div id="search-btn" class="fas fa-search"></div>
-         <div id="user-btn" class="fas fa-user"></div>
-         <div id="toggle-btn" class="fas fa-sun"></div>
+         <form action="search.html" method="post" class="search-form">
+            <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+         </div>
+
+         <div class="profile">
+            <img src="images/pic-1.jpg" class="image" alt="">
+            <h3 class="name">Steve</h3>
+            <p class="role">Student</p>
+            <a href="profile.html" class="btn">view profile</a>
+            <div class="flex-btn">
+               <a href="login.html" class="option-btn">login</a>
+               <a href="register.html" class="option-btn">register</a>
+            </div>
+         </div>
+
+      </section>
+
+   </header>
+
+   <div class="side-bar">
+
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
       </div>
 
       <div class="profile">
@@ -40,205 +121,197 @@
          <h3 class="name">Steve</h3>
          <p class="role">Student</p>
          <a href="profile.html" class="btn">view profile</a>
-         <div class="flex-btn">
-            <a href="login.html" class="option-btn">login</a>
-            <a href="register.html" class="option-btn">register</a>
+      </div>
+
+      <nav class="navbar">
+         <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+         <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+         <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Resources</span></a>
+         <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Explore</span></a>
+         <a href="upload.html"><i class="fas fa-upload"></i><span>Upload Assignment</span></a>
+         <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+      </nav>
+
+   </div>
+
+   <section class="about">
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/about-img.svg" alt="">
          </div>
+
+         <div class="content">
+            <h3>Welcome to DocPort !</h3>
+            <p>DocPort is your go-to platform for resource sharing, collaboration, project showcaseand progress
+               tracking, all designed to empower Students. Whether you’re working on a group project, sharing study
+               materials, or keeping tabs on your academic growth, DocPort provides the tools to succeed</p>
+            <a href="courses.html" class="inline-btn">Explore Resources</a>
+         </div>
+
+      </div>
+
+      <div class="box-container">
+
+         <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+               <h3>10k+</h3>
+               <p>Resource Shared</p>
+            </div>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-user-graduate"></i>
+            <div>
+               <h3>+40k</h3>
+               <p>Brilliant Studentts</p>
+            </div>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-chalkboard-user"></i>
+            <div>
+               <h3>+2k</h3>
+               <p>Expert Creators</p>
+            </div>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-briefcase"></i>
+            <div>
+               <h3>100%</h3>
+               <p>Internship placement</p>
+            </div>
+         </div>
+
       </div>
 
    </section>
 
-</header>   
+   <section class="reviews">
 
-<div class="side-bar">
+      <h1 class="heading">Studentt's reviews</h1>
 
-   <div id="close-btn">
-      <i class="fas fa-times"></i>
-   </div>
+      <div class="box-container">
 
-   <div class="profile">
-      <img src="images/pic-1.jpg" class="image" alt="">
-      <h3 class="name">Steve</h3>
-      <p class="role">Student</p>
-      <a href="profile.html" class="btn">view profile</a>
-   </div>
-
-   <nav class="navbar">
-      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
-      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
-      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Resources</span></a>
-      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Explore</span></a>
-      <a href="upload.html"><i class="fas fa-upload"></i><span>Upload Assignment</span></a>
-      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
-   </nav>
-
-</div>
-
-<section class="about">
-
-   <div class="row">
-
-      <div class="image">
-         <img src="images/about-img.svg" alt="">
-      </div>
-
-      <div class="content">
-         <h3>Welcome to DocPort !</h3>
-         <p>DocPort is your go-to platform for resource sharing, collaboration, project showcaseand progress tracking, all designed to empower Students. Whether you’re working on a group project, sharing study materials, or keeping tabs on your academic growth, DocPort provides the tools to succeed</p>
-         <a href="courses.html" class="inline-btn">Explore Resources</a>
-      </div>
-
-   </div>
-
-   <div class="box-container">
-
-      <div class="box">
-         <i class="fas fa-graduation-cap"></i>
-         <div>
-            <h3>10k+</h3>
-            <p>Resource Shared</p>
-         </div>
-      </div>
-
-      <div class="box">
-         <i class="fas fa-user-graduate"></i>
-         <div>
-            <h3>+40k</h3>
-            <p>Brilliant Studentts</p>
-         </div>
-      </div>
-
-      <div class="box">
-         <i class="fas fa-chalkboard-user"></i>
-         <div>
-            <h3>+2k</h3>
-            <p>Expert Creators</p>
-         </div>
-      </div>
-
-      <div class="box">
-         <i class="fas fa-briefcase"></i>
-         <div>
-            <h3>100%</h3>
-            <p>Internship placement</p>
-         </div>
-      </div>
-
-   </div>
-
-</section> 
-
-<section class="reviews">
-
-   <h1 class="heading">Studentt's reviews</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <p>"DocPort has been a game-changer for our study group. The resource sharing feature is super easy to use, and tracking our progress has never been this simple. It’s a must-have for any Student looking to stay organized."</p>
-         <div class="Studentt">
-            <img src="images/pic-2.jpg" alt="">
-            <div>
-               <h3>Rohit S</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>"DocPort has been a game-changer for our study group. The resource sharing feature is super easy to use,
+               and tracking our progress has never been this simple. It’s a must-have for any Student looking to stay
+               organized."</p>
+            <div class="Studentt">
+               <img src="images/pic-2.jpg" alt="">
+               <div>
+                  <h3>Rohit S</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>"I love how DocPort brings everything together in one place. The collaboration tools have made working on group projects so much smoother. Plus, the interface is clean and intuitive. Highly recommend it!"</p>
-         <div class="Studentt">
-            <img src="images/pic-3.jpg" alt="">
-            <div>
-               <h3>Aisha M</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>"I love how DocPort brings everything together in one place. The collaboration tools have made working on
+               group projects so much smoother. Plus, the interface is clean and intuitive. Highly recommend it!"</p>
+            <div class="Studentt">
+               <img src="images/pic-3.jpg" alt="">
+               <div>
+                  <h3>Aisha M</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>"DocPort has really helped me stay on top of my assignments and deadlines. The ability to track my progress and see how I’m doing compared to others keeps me motivated. A brilliant platform for Students!"</p>
-         <div class="Studentt">
-            <img src="images/pic-4.jpg" alt="">
-            <div>
-               <h3>Karthik R</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>"DocPort has really helped me stay on top of my assignments and deadlines. The ability to track my
+               progress and see how I’m doing compared to others keeps me motivated. A brilliant platform for Students!"
+            </p>
+            <div class="Studentt">
+               <img src="images/pic-4.jpg" alt="">
+               <div>
+                  <h3>Karthik R</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>"What stands out about DocPort is its simplicity and effectiveness. Uploading and accessing resources is quick and hassle-free. It’s also great for keeping track of what I’ve completed and what’s still pending."</p>
-         <div class="Studentt">
-            <img src="images/pic-5.jpg" alt="">
-            <div>
-               <h3>Sneha T</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>"What stands out about DocPort is its simplicity and effectiveness. Uploading and accessing resources is
+               quick and hassle-free. It’s also great for keeping track of what I’ve completed and what’s still
+               pending."</p>
+            <div class="Studentt">
+               <img src="images/pic-5.jpg" alt="">
+               <div>
+                  <h3>Sneha T</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>"DocPort has made collaboration with my peers so much easier. The platform’s design is Student-friendly, and I love how I can keep all my resources organized in one place. It’s a fantastic tool for any Student."</p>
-         <div class="Studentt">
-            <img src="images/pic-6.jpg" alt="">
-            <div>
-               <h3>Ananya V</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>"DocPort has made collaboration with my peers so much easier. The platform’s design is Student-friendly,
+               and I love how I can keep all my resources organized in one place. It’s a fantastic tool for any
+               Student."</p>
+            <div class="Studentt">
+               <img src="images/pic-6.jpg" alt="">
+               <div>
+                  <h3>Ananya V</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>"DocPort is a one-stop solution for Students who want to manage their projects and resources efficiently. The progress tracking feature is a standout, helping me stay on top of my work. Kudos to the team behind this!"</p>
-         <div class="Studentt">
-            <img src="images/pic-7.jpg" alt="">
-            <div>
-               <h3>Aditya P</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>"DocPort is a one-stop solution for Students who want to manage their projects and resources efficiently.
+               The progress tracking feature is a standout, helping me stay on top of my work. Kudos to the team behind
+               this!"</p>
+            <div class="Studentt">
+               <img src="images/pic-7.jpg" alt="">
+               <div>
+                  <h3>Aditya P</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
+
       </div>
 
-   </div>
-
-</section>
+   </section>
 
 
 
@@ -252,16 +325,18 @@
 
 
 
-<footer class="footer">
 
-     &copy; copyright @ 2024 by <span>The Tech Geeks</span> | all rights reserved!
+   <footer class="footer">
+
+      &copy; copyright @ 2024 by <span>The Tech Geeks</span> | all rights reserved!
 
 
-</footer>
+   </footer>
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
 
-   
+
 </body>
+
 </html>
