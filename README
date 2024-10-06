@@ -1,8 +1,8 @@
-# DocPort - Hack24 Project Setup Guide
+DocPort - Hack24 Project Setup Guide
 
 Welcome to the DocPort project! This guide will help you set up the project on your local machine.
 
-## Steps to Set Up the Project
+Steps to Set Up the Project
 
 1. **Download and Extract the Project**
    - Download the project as a ZIP file from the GitHub repository.
@@ -23,14 +23,14 @@ Welcome to the DocPort project! This guide will help you set up the project on y
    - **HTML Files:** Ensure that all HTML files remain directly in the `Hack24 project` folder (not in any subfolder).
    - **Images and Videos:** Move all image files (e.g., `.png`, `.jpg`, etc.) and `.mp4` video files into the `images` folder.
 
-## Final Structure
+Final Structure
 
 Your project folder should have the following structure:
 
 Hack24 project/ │ ├── css/ │ └── [all your CSS files] │ ├── js/ │ └── [all your JavaScript files] │ ├── images/ │ └── [all your images and .mp4 files] │ └── [all your HTML files]
 
 
-## Conclusion
+Conclusion
 
 After organizing the files as described above, your project setup is complete. You can now open the HTML files in your browser to view and test the website. 
 
